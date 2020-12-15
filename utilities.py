@@ -7,11 +7,11 @@ def save_file(file_path, content):
   with open(file_path, "w") as f:
     f.write(content)
 
-def fileprint(data):
+def foutput(data):
   return pprint.pformat(data)
 
 def output(data):
-    print(fileprint(data))
+    print(pprint.pformat(data))
 
-def tprint(data):
+def doutput(data):
     print(tabulate(data, showindex=True, headers='keys', tablefmt='pretty'))

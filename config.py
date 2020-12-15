@@ -8,3 +8,8 @@ files = dict(
     processed = ROOT_DIR + '/data/02_processed.csv',
     service_rules = ROOT_DIR + '/data/01_service_rules.csv'
 )
+
+signals = dict(
+    signup = ['coming', 'back', 'signup', 'signing', 'joining', 'welcome'],
+    cancellation = ['cancelled', 'cancel']
+)
