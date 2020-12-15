@@ -1,0 +1,8 @@
+tutorials/
+.ipynb_checkpoints
+.ipython
+.jupyter
+.local
+.docker
+.config/
+.cache/
