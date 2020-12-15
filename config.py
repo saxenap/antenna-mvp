@@ -17,15 +17,17 @@ inputs = dict(
     signals = dict(
         signup = ['coming', 'back', 'signup', 'signing', 'joining', 'welcome'],
         cancellation = ['cancelled', 'cancel']
+    )
+)
+
+
+outputs = dict(
+    local = dict(
+        filedir = 'data',
+        filename = 'processed_data.csv',
+        fullpath = ROOT_DIR + '/data/processed_data.csv'
     ),
-    output = dict(
-        local = dict(
-            filedir = 'data',
-            filename = 'processed_data.csv',
-            fullpath = ROOT_DIR + '/data/processed_data.csv'
-        ),
-        cloud = dict(
-            bucket_name = 'antenna-task'
-        )
+    cloud = dict(
+        bucket_name = 'antenna-task'
     )
 )
