@@ -1,7 +1,9 @@
-### Antenna Task. 
+### Antenna Task   
 
-The task is implemented in the notebook:  
-[Implementation Notebook: notebook](notebooks/20201214PS-mvp.ipynb)
+Notebook Implementation:  
+
+[Live Google Cloud AI Notebook - needs permissions](https://21fa851c65d79a51-dot-us-central1.notebooks.googleusercontent.com/lab?authuser=0)   
+[Static View on GitHub](notebooks/20201214PS-mvp.ipynb)   
 
   
 #### Inputs 
