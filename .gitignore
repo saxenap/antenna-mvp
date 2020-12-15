@@ -6,4 +6,4 @@ tutorials/
 .docker
 .config/
 .cache/
-__pycache__/
+__pycache__
