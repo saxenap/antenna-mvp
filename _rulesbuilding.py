@@ -25,7 +25,7 @@ class RulesRegexBuilder:
         return regexes
 
 
-class GroupedDataRegex:
+class GroupedRegexConcatenation:
     
     def __init__(self, joiner = '|'):
         self.concat_char = joiner
