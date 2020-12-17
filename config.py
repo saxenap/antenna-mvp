@@ -23,7 +23,6 @@ inputs = dict(
     ]
 )
 
-
 from git import Repo
 repo = Repo(ROOT_DIR)
 
