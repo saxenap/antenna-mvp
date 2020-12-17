@@ -1,3 +1,7 @@
+class RulesProvider:
+    def provideFor(self, type):
+        regex = rules[rules['matching'] == type][['service_id','text_match']]
+
 class RulesRegexBuilder:
     
     def __init__(self, regexer):

@@ -49,5 +49,3 @@ else:
             bucket_name = 'antenna-task'
         )
     )
-    
-    
