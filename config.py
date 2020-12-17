@@ -17,9 +17,11 @@ inputs = dict(
     signals = dict(
         signup = ['coming', 'back', 'signup', 'signing', 'joining', 'welcome'],
         cancellation = ['cancelled', 'cancel']
-    )
+    ),
+    allowed_services = [
+        'Netflix', 'CBS All Access', 'Hulu', 'Starz', 'Showtime'
+    ]
 )
-
 
 outputs = dict(
     local = dict(
