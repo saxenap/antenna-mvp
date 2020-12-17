@@ -37,6 +37,7 @@ if repo.active_branch.name == 'development':
             bucket_name = 'antenna-task'
         )
     )
+<<<<<<< HEAD
 else:
     outputs = dict(
         local = dict(
@@ -48,3 +49,6 @@ else:
             bucket_name = 'antenna-task'
         )
     )
+=======
+)
+>>>>>>> development
